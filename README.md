@@ -1,5 +1,5 @@
 # Project-01--Quiz-Game
-
+Link to the Quix Game: https://project01-simplequizgame.netlify.app/
 
 Welcome to the **Quiz Game** repository! This project is a beginner-friendly web-based quiz application developed using HTML, CSS, and JavaScript. It's designed to test players' knowledge on various topics through an interactive and engaging interface.
 
