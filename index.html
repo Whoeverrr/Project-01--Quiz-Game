@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project 01: Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Outer container for the entire app -->
+    <div class="container">
+
+        <!-- Start Screen -->
+        <div class="screen active" id="start-screen">
+            <h1>Welcome to the Quiz Game</h1>
+            <p>Click the button below to start the Quiz</p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div class="screen" id="quiz-screen">
+
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <h2 id="question-text">Question goes here</h2>
+                <div class="quiz-info">
+                    <p>Question <span id="current-questions">1</span> of <span id="total-questions">5</span></p>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+            </div>
+
+            <!-- Answers will be inserted by JavaScript -->
+            <div id="answers-container" class="answers-container">
+                <!-- Answer options appear here -->
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+
+        </div> <!-- End Quiz Screen -->
+
+        <!-- Result Screen (moved outside quiz screen) -->
+        <div id="result-screen" class="screen">
+            <h1>Quiz Results</h1>
+            <div class="result-info">
+                <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
+                <div id="result-message">Good Job!</div>
+            </div>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+
+    </div> <!-- End Outer Container -->
+
+    <script src="script.js"></script>
+</body>
+</html>
